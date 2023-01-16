@@ -23,3 +23,4 @@ app.listen(process.env.PORT, async()=>{
     await conncetDB()
     console.log(`http://localhost:${process.env.PORT}`)
 })
+// "main": "index.js"
