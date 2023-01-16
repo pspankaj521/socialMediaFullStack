@@ -2,7 +2,7 @@ const express=require("express")
 
 const userModel=require("../models/user.model")
 const jwt=require("jsonwebtoken")
-const { ensureIndexes } = require("../models/user.model")
+
 const app=express.Router()
 require("dotenv").config
 
